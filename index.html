@@ -8,7 +8,85 @@
     <title>Oasis Retreats - Escape to Paradise</title>
 </head>
 <body>
-    
+    <div id="wrapper">
+        <div id="left"></div>
+        <div id="right">
+            <h1>Oasis Retreats</h1>
+
+            <form id="form">
+                <div>
+                    <span>Full Name:</span>
+                    <input
+                        type="text"
+                        autocomplete="off"
+                        placeholder="John Doe"
+                        id="fullname"
+                    >
+                </div>
+
+                <div>
+                    <span>E-mail:</span>
+                    <input
+                        type="mail"
+                        autocomplete="off"
+                        placeholder="jdoe@mail.com"
+                        id="email"
+                    >
+                </div>
+
+                <div>
+                    <span>Check In</span>
+                    <input
+                        type="date"
+                        id="check-in"
+                    >
+                </div>
+
+                <div>
+                    <span>Room Size:</span>
+                    <div id="room-selector">
+                        <label
+                            for="1"
+                            title="2 person"
+                        >
+                            Couple
+                        </label>
+                        <input
+                            type="radio"
+                            name="room"
+                            id="1"
+                        >
+
+                        <label
+                            for="2"
+                            title="3 to 5 persons"
+                        >
+                            Family
+                        </label>
+                        <input
+                            type="radio"
+                            name="room"
+                            id="2"
+                        >
+
+                        <label
+                            for="3"
+                            title="5+ persons"
+                        >
+                            Friends
+                        </label>
+                        <input
+                            type="radio"
+                            name="room"
+                            id="3"
+                        >
+                    </div>
+                </div>
+
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
