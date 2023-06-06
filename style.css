@@ -132,3 +132,27 @@ body {
     background-color: #ecb39c;
     border-radius: 0 8px 8px 0;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #left {
+        opacity: 0.4;
+    }
+
+    #right {
+        flex: 2;
+    }
+
+    #form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    #left {
+        flex: 0;
+    }
+
+    #form {
+        width: 85%;
+    }
+}
